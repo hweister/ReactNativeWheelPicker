@@ -1,7 +1,8 @@
 'use strict';
 
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import { requireNativeComponent,View } from 'react-native';
+import PropTypes from 'prop-types';
 
 var WheelPickerView = requireNativeComponent('WheelPicker', WheelPicker);
 class WheelPicker extends React.Component {
